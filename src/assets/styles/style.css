@@ -1,0 +1,293 @@
+import cart from '../images/cart.jpg'
+
+/*
+Theme Name: WordPress KSV-Bochum Edition
+Theme URI: http://www.ksv-bochum.de
+Description: Wordpress Theme f�r den Kraftsportverein Bochum
+Version: 1.6
+Author: Thomas Fruetel
+Author URI: http://www.eisenfresser-online.de
+
+*/
+
+a {
+  color: #464544;
+}
+a:hover {
+  color: #ffa405;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+body {
+  background: #504634;
+  font: 14px verdana, arial, sans-serif;
+  color: #695f4c;
+  padding-bottom: 10px;
+}
+
+#logo {
+  position: absolute;
+  top: 12px;
+  left: 300px;
+  width: 270px;
+  color: #52616e;
+}
+
+#logo h1 {
+  font: bold 24px 'arial narrow', arial, sans-serif;
+}
+#logo p {
+  margin: 0;
+  font-weight: bold;
+}
+
+#cart {
+  position: absolute;
+  top: 10px;
+  left: 454px;
+  width: 208px;
+  background: #4b5360;
+  width: 209px;
+}
+/*
+#cart-top { background: url(images/cart_top.gif) no-repeat; }
+#cart-bot { background: bottom left url(images/cart_bot.gif) no-repeat; }
+#cart-cart { background: 9px 11px url(images/cart.gif) no-repeat; }
+*/
+#cart-cart {
+  padding: 8px 8px 8px 60px;
+  color: white;
+}
+#cart p {
+  margin: 0;
+}
+#cart .orange {
+  color: #ffb400;
+  font-size: 10px;
+}
+#cart a {
+  color: white;
+  font-size: 10px;
+}
+
+#nav {
+  background: #4b5360;
+  position: absolute;
+  top: 101px;
+  left: 287px;
+  width: 385px;
+  padding: 9px 0;
+  text-align: center;
+}
+#nav li {
+  list-style: none;
+  display: inline;
+  color: #fff;
+}
+#nav a {
+  text-decoration: none;
+  color: #fff;
+}
+#gallery {
+  position: absolute;
+  top: 155px;
+  left: 287px;
+  width: 387px;
+}
+#gallery li {
+  list-style: none;
+  text-indent: -999px;
+  float: left;
+  overflow: hidden;
+  height: 111px;
+  margin: 0 1px 0 0;
+}
+/*
+#gallery .gwomen {
+  background: url(images/pic_1.jpg) no-repeat;
+  width: 128px;
+}
+#gallery .gkids {
+  background: url(images/pic_2.jpg) no-repeat;
+  width: 128px;
+}
+#gallery .gmen {
+  background: url(images/pic_3.jpg) no-repeat;
+  width: 128px;
+}
+*/
+#body {
+  padding-top: 3px;
+  background-color: #fff;
+}
+#categories {
+  float: left;
+  width: 195px;
+}
+#seasonal,
+#collection {
+  float: right;
+  width: 474px;
+  background: #d4cab6;
+  margin-bottom: 2px;
+}
+#seasonal .inner,
+#collection .inner {
+  padding: 6px 12px;
+}
+#seasonal p,
+#collection p {
+  margin: 0.9em 0;
+}
+
+#collection {
+  height: 552px;
+}
+
+.more a {
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+}
+.more a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  font: bold 14px 'arial narrow', arial, sans-serif;
+  color: #1b1812;
+}
+
+h2 {
+  font: 18px 'arial narrow', arial, sans-serif;
+  color: #695f4c;
+  padding-bottom: 10px;
+}
+#categories h2 {
+  color: #fff;
+  padding: 4px 0 5px 39px;
+  background: #847a67;
+}
+
+#categories li {
+  /*  background: #d4cab6 left url(images/bullet.gif) no-repeat;
+*/
+  border-top: 1px solid #f4efdf;
+  list-style: none;
+  font-size: 12px;
+  padding: 7px 0 8px 35px;
+}
+#categories a {
+  text-decoration: none;
+  color: #000000;
+}
+#categories a:hover {
+  text-decoration: underline;
+}
+
+#collection {
+  background: #d4cab6 bottom right no-repeat;
+}
+#collection .inner {
+  padding-right: 98px;
+}
+#minigal {
+  float: right;
+  width: 222px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#minigal div {
+  float: left;
+  margin: 6px;
+}
+#collection ul {
+  margin-left: 1.5em;
+}
+#collection li {
+  margin: 0.2em 0;
+  color: #463f32;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'arial narrow', arial, sans-serif;
+}
+#collection p {
+  width: 103px;
+  margin-left: 1.5em;
+}
+
+#seas-one,
+#seas-two,
+#seas-three {
+  height: 146px;
+  background-color: #000;
+}
+
+#seas-one {
+  float: left;
+  width: 195px;
+  margin-right: 3px;
+  /*background: url(images/foot_1.jpg) no-repeat;*/
+  color: #d4cab6;
+}
+#seas-two {
+  float: left;
+  width: 249px;
+  margin-right: 3px;
+  /*background: url(images/foot_2.jpg) no-repeat;*/
+  color: #d4cab6;
+}
+#seas-three {
+  float: left;
+  width: 222px;
+  /*background: url(images/foot_3.jpg) no-repeat;*/
+  color: #d4cab6;
+}
+
+#seas p {
+  text-align: center;
+  margin: 110px 0px 0 0;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #4b5360;
+  width: 100%;
+}
+#seas p.date {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+#copyright {
+  text-align: center;
+  font-size: 9px;
+  padding: 3px;
+}
+
+div.entry {
+  font-size: 13px;
+  margin: 10px 15px;
+}
+
+div.entry h2 {
+  font-weight: bold;
+}
+
+div.entry ul {
+  margin: 5px 20px;
+}
+
+div.entry ul li {
+  line-height: 1.25em;
+}
+
+img.alignright {
+  float: right;
+  margin: 0 0 20px 20px;
+}

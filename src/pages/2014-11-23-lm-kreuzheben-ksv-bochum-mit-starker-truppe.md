@@ -1,15 +1,14 @@
 ---
 layout: post
-title: LM Kreuzheben: KSV Bochum mit starker Truppe
+title: LM Kreuzheben\: KSV Bochum mit starker Truppe
 permalink: http://www.ksv-bochum.de/lm-kreuzheben-ksv-bochum-mit-starker-truppe
 post_id: 138
-categories: 
+categories:
 - Allgemein
 date: 2014-11-23 11:32:39
 ---
 
 Das Kreuzheben war schon immer eine starke Disziplin der Bochumer Powerlifter. Bei der diesjährigen Landsesmeisterschaft in Essen starteten fünf Heber des KSV.
-
 
 ![Mannschaft LM Kreuzheben](http://www.ksv-bochum.de/wp-content/uploads/2014/11/10177918_746107578759310_7430340619122081981_n-e1416735045826.jpg)
 

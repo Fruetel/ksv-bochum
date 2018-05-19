@@ -4,6 +4,7 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import { Container, Content } from './styles.js'
 import SideBar from '../components/side-bar/index'
+import Intro from '../components/intro/index'
 
 import { rhythm } from '../utils/typography'
 
@@ -17,6 +18,7 @@ class BlogIndex extends React.Component {
         <Helmet title={siteTitle} />
         <SideBar />
         <Content>
+          <Intro />
           {posts.map(({ node }) => {
             const title = get(node, 'frontmatter.title') || node.fields.slug
             return (

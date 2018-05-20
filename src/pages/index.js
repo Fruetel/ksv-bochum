@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-import { Container, Content } from './styles.js'
+import { Container, Content, Posts, Title, A } from './styles.js'
 import SideBar from '../components/side-bar/index'
 import Intro from '../components/intro/index'
 
@@ -19,24 +19,24 @@ class BlogIndex extends React.Component {
         <SideBar />
         <Content>
           <Intro />
-          {posts.map(({ node }) => {
-            const title = get(node, 'frontmatter.title') || node.fields.slug
-            return (
-              <div key={node.fields.slug}>
-                <h3
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
-                >
-                  <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-                    {title}
-                  </Link>
-                </h3>
-                <small>{node.frontmatter.date}</small>
-                <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-              </div>
-            )
-          })}
+          <Posts>
+            {posts.map(({ node }) => {
+              const title = get(node, 'frontmatter.title') || node.fields.slug
+              return (
+                <div key={node.fields.slug}>
+                  <Title
+                    style={{
+                      marginBottom: rhythm(1 / 4),
+                    }}
+                  >
+                    <A to={node.fields.slug}>{title}</A>
+                  </Title>
+                  <small>{node.frontmatter.date}</small>
+                  <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+                </div>
+              )
+            })}
+          </Posts>
         </Content>
       </Container>
     )
@@ -52,7 +52,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 10
+    ) {
       edges {
         node {
           excerpt

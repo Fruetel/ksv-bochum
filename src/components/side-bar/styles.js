@@ -38,3 +38,7 @@ export const Topic = styled(Link)`
     text-decoration: underline;
   }
 `
+
+export const Banner = styled.div`
+  text-align: center;
+`

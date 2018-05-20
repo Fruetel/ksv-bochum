@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    title: 'KSV Bochum',
+    author: 'Thomas Frütel',
+    description:
+      'Der KSV Bochum ist der Verein für Kraftsport in Bochum. Bei uns wird Powerlifting, Gewichtheben und Fitness trainiert.',
+    siteUrl: 'http://ksv-bochum.de',
   },
   pathPrefix: '/gatsby-starter-blog',
   plugins: [

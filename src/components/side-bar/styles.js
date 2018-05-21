@@ -39,6 +39,12 @@ export const Topic = styled(Link)`
   }
 `
 
-export const Banner = styled.div`
+export const Banner = styled.iframe`
   text-align: center;
+  width: 140px;
+  height: 600px;
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
 `

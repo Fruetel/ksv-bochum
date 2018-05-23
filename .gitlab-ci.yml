@@ -1,0 +1,37 @@
+image: node:latest
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  artifacts:
+    paths:
+      - public/
+  script:
+    - npm install
+    - npm install --global gatsby-cli
+    - gatsby build
+
+deploy:
+  stage: deploy
+  before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - mkdir -p ~/.ssh
+    - eval $(ssh-agent -s)
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+    - ssh-add <(echo "$DEPLOYMENT_PRIVATE_KEY")
+    - apt-get update
+    - apt-get install -y rsync
+  dependencies:
+    - build
+  script:
+    - ls -al public
+    - ssh gitlab@$DEPLOYMENT_SERVER "mkdir _tmp"
+    - rsync -rav -e ssh ./public gitlab@$DEPLOYMENT_SERVER:_tmp
+    - ssh gitlab@$DEPLOYMENT_SERVER "mv $DOCUMENT_ROOT _old && mv _tmp/public $DOCUMENT_ROOT"
+    - ssh gitlab@$DEPLOYMENT_SERVER "rm -rf _tmp"
+    - ssh gitlab@$DEPLOYMENT_SERVER "rm -rf _old"
+  only:
+    - master

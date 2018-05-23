@@ -29,6 +29,7 @@ deploy:
   script:
     - ls -al public
     - ssh gitlab@$DEPLOYMENT_SERVER "mkdir _tmp"
+    - ssh gitlab@$DEPLOYMENT_SERVER "mkdir _old"
     - rsync -rav -e ssh ./public gitlab@$DEPLOYMENT_SERVER:_tmp
     - ssh gitlab@$DEPLOYMENT_SERVER "mv $DOCUMENT_ROOT _old && mv _tmp/public $DOCUMENT_ROOT"
     - ssh gitlab@$DEPLOYMENT_SERVER "rm -rf _tmp"

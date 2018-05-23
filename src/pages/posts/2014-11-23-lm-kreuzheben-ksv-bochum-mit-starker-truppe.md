@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LM Kreuzheben\: KSV Bochum mit starker Truppe
+title: "LM Kreuzheben: KSV Bochum mit starker Truppe"
 permalink: http://www.ksv-bochum.de/lm-kreuzheben-ksv-bochum-mit-starker-truppe
 post_id: 138
 categories:

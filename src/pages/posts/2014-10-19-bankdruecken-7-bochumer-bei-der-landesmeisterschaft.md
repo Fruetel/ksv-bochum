@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Bankdrücken: 7 Bochumer bei der Landesmeisterschaft
+title: "Bankdrücken: 7 Bochumer bei der Landesmeisterschaft"
 permalink: http://www.ksv-bochum.de/bankdruecken-7-bochumer-bei-der-landesmeisterschaft
 post_id: 134
-categories: 
+categories:
 - Allgemein
 date: 2014-10-19 20:59:17
 ---

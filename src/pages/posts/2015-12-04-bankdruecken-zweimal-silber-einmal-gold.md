@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Bankdrücken: Zweimal Silber, einmal Gold
+title: "Bankdrücken: Zweimal Silber, einmal Gold"
 permalink: http://www.ksv-bochum.de/bankdruecken-zweimal-silber-einmal-gold
 post_id: 252
-categories: 
+categories:
 - Allgemein
 date: 2015-12-04 09:48:43
 ---
@@ -11,7 +11,6 @@ date: 2015-12-04 09:48:43
 Bei den deutschen Meisterschaften im Bankdrücken konnte der KSV Bochum drei Medaillenplätze vereinnahmen:
 
 Silke Häger startete in der Altersklasse II der Frauen bis 63 kg. Nach dem Start mit 45 kg, bewältigte sie im zweiten Versuch die Last von 47,5 kg. Der dritte Versuch mit 50 kg scheiterte leider. Für diese Leistung gab es eine Silbermedaille.
-
 
 ![jupp-dm-2015](http://www.ksv-bochum.de/wp-content/uploads/2015/12/jupp-dm-2015-640x483.jpg)
 

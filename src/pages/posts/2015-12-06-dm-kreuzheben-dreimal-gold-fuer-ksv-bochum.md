@@ -1,9 +1,9 @@
 ---
 layout: post
-title: DM Kreuzheben: Dreimal Gold für KSV Bochum
+title: "DM Kreuzheben: Dreimal Gold für KSV Bochum"
 permalink: http://www.ksv-bochum.de/dm-kreuzheben-dreimal-gold-fuer-ksv-bochum
 post_id: 259
-categories: 
+categories:
 - Allgemein
 date: 2015-12-06 18:29:43
 ---

@@ -4,6 +4,9 @@ import Link from 'gatsby-link'
 export const Container = styled.div`
   width: 200px;
   float: left;
+  @media (max-width: 640px) {
+    display: none;
+  }
   ::after {
     content: '';
     clear: both;

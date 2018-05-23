@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 
 import { rhythm, scale } from '../utils/typography'
+import { Container, Headline } from './styles.js'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -12,9 +13,9 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pathContext
 
     return (
-      <div>
+      <Container>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <h1>{post.frontmatter.title}</h1>
+        <Headline>{post.frontmatter.title}</Headline>
         <p
           style={{
             ...scale(-1 / 5),
@@ -57,7 +58,7 @@ class BlogPostTemplate extends React.Component {
             </li>
           )}
         </ul>
-      </div>
+      </Container>
     )
   }
 }

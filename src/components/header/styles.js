@@ -1,18 +1,22 @@
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 
+import squat from '../../assets/images/squat.jpg'
+import bench from '../../assets/images/bench.jpg'
+import deadlift from '../../assets/images/deadlift.jpg'
+
 export const Container = styled.div`
   background: #d9d1bc;
-  height: 266px;
+  height: 296px;
 `
 
 export const Logo = styled(Link)`
-  width: 266px;
   height: 261px;
   color: #52616e;
   display: block;
   float: left;
   box-shadow: none;
+  text-align: center;
   @media (max-width: 768px) {
     float: none;
     margin: 0 auto;
@@ -71,20 +75,23 @@ export const NavLink = styled(Link)`
 const TeaserImage = styled.li`
   display: inline-block;
   width: 33%;
-  height: 97px;
+  height: 127px;
   border-right: 1px solid white;
 `
 
 export const Img1 = styled(TeaserImage)`
-  background-color: #ff0000;
+  background-image: url(${squat});
+  background-position: center;
 `
 
 export const Img2 = styled(TeaserImage)`
+  background-image: url(${bench});
+  background-position: center;
   width: 34%;
-  background-color: #00ff00;
 `
 
 export const Img3 = styled(TeaserImage)`
-  background-color: #0000ff;
-  border: none;
+  background-image: url(${deadlift});
+  background-position: center;
+  border-right: none;
 `

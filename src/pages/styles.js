@@ -10,6 +10,9 @@ export const Content = styled.div`
   margin-left: 200px;
   background-color: #d9d1bc;
   padding: 2px;
+  @media (max-width: 640px) {
+    margin-left: 0;
+  }
 `
 
 export const Posts = styled.div`

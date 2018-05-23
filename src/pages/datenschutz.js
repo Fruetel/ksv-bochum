@@ -1,7 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import { Container, Content, Section, Header, Title } from './styles.js'
+import {
+  Container,
+  Content,
+  Section,
+  Header,
+  Title,
+} from '../assets/styles/styles.js'
 import SideBar from '../components/side-bar/index'
 
 import { rhythm } from '../utils/typography'

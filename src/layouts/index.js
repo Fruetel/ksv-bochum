@@ -6,7 +6,6 @@ import { rhythm, scale } from '../utils/typography'
 import Header from '../components/header/index'
 import Footer from '../components/footer/index'
 
-import normalize from '../assets/styles/normalize.css'
 import style from '../assets/styles/styles.scss'
 
 const Container = styled.div`

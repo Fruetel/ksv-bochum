@@ -47,6 +47,31 @@ class Page extends React.Component {
               allerdings möglich, dass diese Website dann nicht mehr korrekt
               dargestellt werden kann.
             </p>
+            <Title>Cookies</Title>
+            <p>
+              Wie fast alle Websites verwendet auch die Site des KSV-Bochum
+              Cookies, um eine korrekte Funktion zu ermöglichen. Sie können das
+              Setzen von Cookies verhindern, indem Sie ihren Browser so
+              konfigurieren, dass generell oder für bestimmte Websites keine
+              Cookies geschrieben werden. Viele Websites werden dann jedoch
+              nicht mehr korrekt funktionieren.
+            </p>
+            <p>Folgende Cookies werden von dieser Website gesetzt:</p>
+            <p>
+              <strong>OAID</strong>
+              <br />
+              Cookie vom Adservers unseres Sponsors, der Sparkasse Bochum.
+              Hiermit kann die Sparkasse wiederkehrende Besucher erkennen und
+              den Erfolg ihrer Werbemittel messen.
+            </p>
+            <p>
+              <strong>CookieConsent</strong>
+              <br />
+              Dieses Cookie wird von unserem Cookie-Banner, mit dem wir Besucher
+              auf die Verwendung von Cookies hinweisen, gesetzt. Dies
+              ermöglicht, dass für Besucher, die der Verwendung von Cookies
+              zugestimmt haben, der Hinweis zukünftig ausgeblendet wird.
+            </p>
           </Section>
         </Content>
       </Container>

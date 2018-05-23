@@ -30,7 +30,7 @@ class Header extends React.Component {
         </Logo>
         <Navigation>
           <HeadLine>
-            <HomeLink to="http://www.ksv-bochum.de/">KSV Bochum</HomeLink>
+            <HomeLink to="/">KSV Bochum</HomeLink>
           </HeadLine>
           <TagLine>Fitness, Gewichtheben, Kraftdreikampf</TagLine>
           <div id="nav">

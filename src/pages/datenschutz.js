@@ -25,7 +25,7 @@ class Page extends React.Component {
               Die Website des KSV-Bochums wurde so umgesetzt, dass eine
               Verarbeitung personenbezogener Daten weitestgehend vermieden wird.
               Fragen zum Datenschutz können Sie per E-Mail an
-              datenschutz@ksv-bochum.de stellen.
+              datenschutz.ksv@fruetel.de stellen.
             </p>
             <Title>Webserver Logs</Title>
             <p>

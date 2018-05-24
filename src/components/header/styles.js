@@ -7,7 +7,7 @@ import deadlift from '../../assets/images/deadlift.jpg'
 
 export const Container = styled.div`
   background: #d9d1bc;
-  height: 296px;
+  height: 303px;
 `
 
 export const Logo = styled(Link)`

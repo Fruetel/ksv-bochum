@@ -28,6 +28,10 @@ class Page extends React.Component {
             <Title>Weitere Ansprechpersonen</Title>
             <p>Jan Piotrowski (Trainingsstätte Harpener Heide)</p>
             <p>
+              Giancarlo Mavrici (Sportwart Kraftdreikampf, Harpener Heide)
+              E-Mail: carlo-mavrici@web.de
+            </p>
+            <p>
               Adnan Köklü (Trainingsstätte Schulstraße, Wattenscheid)<br />
               Telefon: 0157 – 33 53 2292<br />
             </p>

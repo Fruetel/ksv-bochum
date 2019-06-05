@@ -10,8 +10,8 @@ build:
     paths:
       - public/
   script:
-    - npm install
-    - npm install --global gatsby-cli
+    - yarn
+    - yarn global add gatsby-cli
     - gatsby build
 
 deploy:

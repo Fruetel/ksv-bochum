@@ -1,12 +1,19 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import styled from 'styled-components'
+import styled, { injectGlobal } from 'styled-components'
 
 import { rhythm, scale } from '../utils/typography'
 import Header from '../components/header/index'
 import Footer from '../components/footer/index'
 
-import style from '../assets/styles/styles.scss'
+injectGlobal`
+  body {
+    background-color: #504634;
+    font: 14px verdana, arial, sans-serif;
+    color: #695f4c;
+    padding-bottom: 10px;
+  }
+`
 
 const Container = styled.div`
   margin-left: auto;

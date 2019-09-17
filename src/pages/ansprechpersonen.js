@@ -22,11 +22,10 @@ class Page extends React.Component {
           <Section>
             <Header>Ansprechpersonen</Header>
             <Title>Vorsitzender</Title>
-            <p>Bruno Piotrowski</p>
+            <p>Sebastian Schaffarczik</p>
             <Title>Geschäftsführer</Title>
             <p>Philipp Steinke</p>
             <Title>Weitere Ansprechpersonen</Title>
-            <p>Jan Piotrowski (Trainingsstätte Harpener Heide)</p>
             <p>
               Giancarlo Mavrici (Sportwart Kraftdreikampf, Harpener Heide)<br />
               E-Mail: carlo-mavrici@web.de

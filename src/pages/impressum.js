@@ -27,7 +27,7 @@ class Page extends React.Component {
               44805 Bochum<br />
             </p>
             <Title>Vorsitzender</Title>
-            <p>Sebastian Schaffarczik</p>
+            <p>Sebastian Schaffarczyk</p>
             <Title>Geschäftsführer</Title>
             <p>Philipp Steinke</p>
             <p>Verantwortlich für die Website: Thomas Frütel</p>

@@ -22,7 +22,7 @@ class Page extends React.Component {
           <Section>
             <Header>Ansprechpersonen</Header>
             <Title>Vorsitzender</Title>
-            <p>Sebastian Schaffarczik</p>
+            <p>Sebastian Schaffarczyk</p>
             <Title>Geschäftsführer</Title>
             <p>Philipp Steinke</p>
             <Title>Weitere Ansprechpersonen</Title>

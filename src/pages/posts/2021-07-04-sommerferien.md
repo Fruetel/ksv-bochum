@@ -4,7 +4,7 @@ title: 'Erweiterte Öffnungszeiten in den Ferien'
 permalink: http://www.ksv-bochum.de/sommerferien-2021
 categories:
   - Allgemein
-date: 2021-06-16 05:45:13
+date: 2021-07-04 i21:32:33
 ---
 
 Liebe Sportsfreunde!

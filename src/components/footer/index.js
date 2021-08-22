@@ -7,7 +7,7 @@ class Footer extends React.Component {
   render() {
     return (
       <Container>
-        &copy; 2018 KSV-Bochum &nbsp;
+        &copy; 2021 KSV-Bochum &nbsp;
         <A to="/impressum">Impressum</A>
         &nbsp;
         <A to="/datenschutz">Datenschutzerklärung</A>
